@@ -1,0 +1,34 @@
+body {background-color: rgb(211, 210, 210);
+margin:0;}
+div { box-sizing: border-box;
+}
+
+header { background: white;
+padding: 10px;}
+
+header h1 {margin: 0;}
+
+.thepost {background: white;
+margin-top: 10px;}
+
+.thepost img { width: 100%;}
+
+.thepost .thepost-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+.thepost .thepost-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray
+}
+
+.thepost h2 ,.thepost p {padding: 10px;
+margin: 0;}
+
+.container {width: 600px;
+margin:auto
+}
